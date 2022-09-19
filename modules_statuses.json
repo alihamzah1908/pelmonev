@@ -1,0 +1,11 @@
+{
+    "Data": true,
+    "Pemohon": true,
+    "Proposal": true,
+    "MitraKemaslahatan": true,
+    "KuotaProposal": true,
+    "MitraStrategis": true,
+    "MasterCoo": true,
+    "MutasiRekening": true,
+    "Penugasan": true
+}

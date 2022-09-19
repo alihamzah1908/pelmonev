@@ -1,0 +1,13 @@
+{
+    "name": "Data",
+    "alias": "data",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Data\\Providers\\DataServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

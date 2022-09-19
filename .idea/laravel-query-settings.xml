@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LaravelQuerySettings">
+    <option name="filterDataSources" value="true" />
+    <option name="filteredDataSources">
+      <set>
+        <option value="50700a44-8fe1-48cf-88f5-97342f8e9e79&lt;-/lq/-&gt;public" />
+        <option value="50700a44-8fe1-48cf-88f5-97342f8e9e79&lt;-/lq/-&gt;log" />
+        <option value="50700a44-8fe1-48cf-88f5-97342f8e9e79&lt;-/lq/-&gt;auth" />
+      </set>
+    </option>
+  </component>
+</project>

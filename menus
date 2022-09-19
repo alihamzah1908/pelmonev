@@ -1,0 +1,23 @@
+
+   Orangehill\Iseed\TableNotFoundException  : Table auth- was not found.
+
+  at E:\PND\Pipit\YPPSB\ERP\Asset\vendor\orangehill\iseed\src\Orangehill\Iseed\IseedCommand.php:204
+    200|      */
+    201|     protected function generateFileName($table, $prefix=null, $suffix=null)
+    202|     {
+    203|         if (!\Schema::connection($this->option('database') ? $this->option('database') : config('database.default'))->hasTable($table)) {
+  > 204|             throw new TableNotFoundException("Table $table was not found.");
+    205|         }
+    206| 
+    207|         // Generate class name and file name
+    208|         $className = app('iseed')->generateClassName($table, $prefix, $suffix);
+
+  Exception trace:
+
+  1   Orangehill\Iseed\IseedCommand::generateFileName("auth-")
+      E:\PND\Pipit\YPPSB\ERP\Asset\vendor\orangehill\iseed\src\Orangehill\Iseed\IseedCommand.php:92
+
+  2   Orangehill\Iseed\IseedCommand::fire()
+      E:\PND\Pipit\YPPSB\ERP\Asset\vendor\orangehill\iseed\src\Orangehill\Iseed\IseedCommand.php:42
+
+  Please use the argument -v to see more details.

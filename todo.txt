@@ -1,0 +1,24 @@
+Note SIM Kemaslahatan 17 Nov 21
+
+1. User Pemohon1 >> Upload dokumen 
+- Label file short proposal diganti menjadi File Proposal (V)
+-  form Ajukan Online (detail), pada judul kata “detail” dihapus (V)
+
+2. User Pemohon 1  >> Tab Proposal 
+- Label Deskripsi Singkat diganti menjadai Deskripsi Program yang Diusulkan  (V)
+- Informasi terkait lokasi, ditaruh di bawah field ‘Nominal’ (V)
+
+3. User Pemohon >> Upload dokumen 
+-  Field Mitra Kemaslahatan di ganti Surat Keterangan Domisili (V)
+-  Field No 1 - 5 dibuat mandatory, selebihnya tidak  (V)
+
+4. Status Proposal
+-   Status proses Proposal dibedakan antara Outsider dan Internal, untuk Pemohon dibuat lebih simple tanpa keterangan detil cukup status proposal
+
+5. Tampilan 
+-	Ditambahkan kolom untuk menaruh link video tutorial pengisian proposal
+-	Video tutorial yang membuat dari tim BPKH
+
+6. Permintaan User 
+-	Lokasi bisa diget sesuai GPS dari Mitra
+-	Ada kemungkinan untuk pel-Monev juga mengajukan permintaan ini

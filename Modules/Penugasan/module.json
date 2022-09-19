@@ -1,0 +1,13 @@
+{
+    "name": "Penugasan",
+    "alias": "penugasan",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Penugasan\\Providers\\PenugasanServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "MasterCoo",
+    "alias": "mastercoo",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\MasterCoo\\Providers\\MasterCooServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

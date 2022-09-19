@@ -1,0 +1,13 @@
+{
+    "name": "MitraKemaslahatan",
+    "alias": "mitrakemaslahatan",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\MitraKemaslahatan\\Providers\\MitraKemaslahatanServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

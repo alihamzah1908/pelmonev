@@ -1,0 +1,13 @@
+{
+    "name": "MitraStrategis",
+    "alias": "mitrastrategis",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\MitraStrategis\\Providers\\MitraStrategisServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "MutasiRekening",
+    "alias": "mutasirekening",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\MutasiRekening\\Providers\\MutasiRekeningServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "KuotaProposal",
+    "alias": "kuotaproposal",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\KuotaProposal\\Providers\\KuotaProposalServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
