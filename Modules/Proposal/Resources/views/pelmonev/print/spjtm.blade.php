@@ -55,6 +55,22 @@
 			{{-- <center>
 				<img align="top" src="data:image/png;base64, {{ base64_encode(file_get_contents(public_path('images/logo-bpkh-s.png'))) }}" width="100px">
 			</center> --}}
+			<div class="tanda-tangan">
+			<table width="100%" style="font-size: 12" style="border: 0px solid #000" border="0">
+				<tr>
+					<td width="30%">
+						<!--<img src="data:image/png;base64, {{ base64_encode(file_get_contents(public_path('images/logo-bpkh-s.png'))) }}" width="250px">-->
+						<img src="data:image/png;base64, {{ base64_encode(file_get_contents(public_path('images/bpkh_png.png'))) }}" width="200px"> -->
+					</td>
+					<td width="50%">
+					</td>
+					<td width="20%">
+						<img src="data:image/png;base64, {{ base64_encode(file_get_contents(public_path("images/lazismu-new.png"))) }}" width="150px"> -->
+					</td>
+
+				</tr>
+			</table>
+			</div>
 			<br>
 			<br>
 			<br>

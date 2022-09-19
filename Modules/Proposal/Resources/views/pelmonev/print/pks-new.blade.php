@@ -564,7 +564,7 @@ $total = \App\Models\PublicTrxProposalRAB::select(DB::raw('sum(total_bpkh) as no
 			<tr>
 				<td style="vertical-align: top;" colspan="2" width="100%">1. &nbsp; Perjanjian ini mulai berlaku sejak tanggal ditandatangani, sampai dengan PIHAK PERTAMA telah 
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;menyetujui laporan pertanggungjawaban akhir dari PIHAK KEDUA, selambat-lambatnya pada 
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tanggal {{ $trxpks ? date('d M Y', strtotime($trxpks->start_date_timeline)) . ' s.d. ' . date('d M Y', strtotime($trxpks->end_date_timeline)) : ''}}.</td>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tanggal {{ $trxpks ? date('d F Y', strtotime($trxpks->start_date_timeline)) . ' s.d. ' . date('d F Y', strtotime($trxpks->end_date_timeline)) : ''}}.</td>
 			</tr>
 			<tr>
 				<td style="vertical-align: top;" colspan="2" width="100%">2. &nbsp; Dalam hal PIHAK KEDUA melakukan pelaksanaan kegiatan kemaslahatan tersebut harus sesuai 
