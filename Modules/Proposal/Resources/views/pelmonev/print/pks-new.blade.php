@@ -192,9 +192,9 @@ $total = \App\Models\PublicTrxProposalRAB::select(DB::raw('sum(total_bpkh) as no
 					<b>Badan Pengelola Keuangan Haji,</b>
 					berkedudukan dan berkantor di
 					<p style="margin-left: 18px;">{{ $masterbpkh ? $masterbpkh[0]->alamat_bpkh : ''}},
-						dalam hal ini diwakili oleh {{ $masterbpkh ? $masterbpkh[0]->kepala_bpkh : ''}}
+						dalam hal ini diwakili oleh <b>{{ $masterbpkh ? $masterbpkh[0]->kepala_bpkh : ''}}</b>
 						Dalam jabatannya selaku Kepala Badan Pelaksana Badan Pengelola Keuangan Haji berdasarkan
-						{{ $masterbpkh ? $masterbpkh[0]->sk_pengangkatan_kep_bpkh : ''}},
+						<b>{{ $masterbpkh ? $masterbpkh[0]->sk_pengangkatan_kep_bpkh : ''}},</b>
 						dari dan oleh karenanya sah bertindak untuk dan atas nama Badan Pengelola Keuangan Haji,
 						untuk selanjutnya disebut sebagai <b>"PIHAK PERTAMA"</b>.
 					</p>

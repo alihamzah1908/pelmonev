@@ -1767,10 +1767,16 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6 termin-sekaligus" style="display: none;">
+                                <div class="col-md-3 termin-sekaligus" style="display: none;">
                                     <div class="form-group form-group-float">
                                         <label class="form-group-float-label is-visible">Termin Sekaligus<span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" name="termin_1[]" placeholder="mohon isi termin" value="{{ $total != '' || $total != '0' ? $total->nominal_rekomendasi : '' }}">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 termin-sekaligus" style="display: none;">
+                                    <div class="form-group form-group-float">
+                                        <label class="form-group-float-label is-visible">Presentase Progress<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="presentase_progress[]" placeholder="mohon isi termin" value="">
                                     </div>
                                 </div>
                                 <div class="col-md-3 termin-2" style="display: none;">
@@ -1778,6 +1784,12 @@
                                         <label class="form-group-float-label is-visible">2 Termin<span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="termin-1" placeholder="mohon isi termin 1">
                                         <input type="text" class="form-control" id="termin-2" placeholder="mohon isi termin 2">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 termin-2" style="display: none;">
+                                    <div class="form-group form-group-float">
+                                        <label class="form-group-float-label is-visible">Presentase Progress<span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control" name="presentase_progress[]" placeholder="mohon isi termin" value="">
                                     </div>
                                 </div>
                                 <div class="col-md-3 termin-3" style="display: none;">
