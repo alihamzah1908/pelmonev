@@ -322,7 +322,8 @@ class ProgramController extends Controller
             'nominal',
             'proses_st',
             'status.proses_nm',
-            'status.proses_jabatan'
+            'status.proses_jabatan',
+            'trx_proposal_mitra.sk_pengesahan_pendirian_no'
         )
             ->leftJoin('public.trx_pemohon as pemohon', 'pemohon.trx_pemohon_id', 'trx_proposal_mitra.trx_pemohon_id')
             ->leftJoin('public.trx_mitra_kemaslahatan as pemohon_mitra', 'pemohon_mitra.trx_mitra_kemaslahatan_id', 'trx_proposal_mitra.trx_pemohon_id')
@@ -342,6 +343,9 @@ class ProgramController extends Controller
             })
             ->addColumn('trx_proposal_uid', function ($data) {
                 return $data->trx_proposal_mitra_id;
+            })
+            ->addColumn('sk_pengesahan_pendirian_no', function ($data) {
+                return $data->sk_pengesahan_pendirian_no;
             })
             ->addColumn('proses_st_nm', function ($data) {
                 return "<span class='badge badge-info d-block'>" . substr($data->proses_st, 7, strlen($data->proses_st)) . ' - ' . $data->proses_nm . "</span>";

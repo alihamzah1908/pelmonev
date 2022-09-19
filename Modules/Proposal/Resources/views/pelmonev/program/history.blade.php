@@ -35,6 +35,7 @@
                         <tr>
                             <th width="0%">No</th>
                             <th width="10%">Kode Proposal</th>
+                            <th width="10%">Nomor SK</th>
                             <th width="10%">Id</th>
                             <th width="0%" id="tanggal_pengajuan_table">tanggal_pengajuan</th>
                             <th width="0%" id="trx_pemohon_id_table">Pemohon</th>
@@ -101,6 +102,12 @@
                 {
                     data: 'trx_proposal_id',
                     name: 'trx_proposal_id',
+                    defaultContent: "-",
+                    visible: true
+                },
+                {
+                    data: 'sk_pengesahan_pendirian_no',
+                    name: 'sk_pengesahan_pendirian_no',
                     defaultContent: "-",
                     visible: true
                 },
